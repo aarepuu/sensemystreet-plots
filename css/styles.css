@@ -3,7 +3,7 @@
 body{
   font-family:'Open Sans', sans-serif;
   background:#151837;
-  width:90%;
+  width: 90%;
   margin:0 auto;
   padding:2em 0 6em;
   min-height: 100vh;
@@ -17,6 +17,9 @@ body{
     }
     .square{
         font-size:2.5em;
+    }
+    .site-footer {
+        font-size: 1em;
     }
 
   }
@@ -32,6 +35,9 @@ body{
     .square{
         font-size:1em;
     }
+    .site-footer {
+        font-size: 0.7em;
+    }
     
   }
 main {
@@ -42,10 +48,8 @@ main {
     position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
+	align-items: center;	
 	margin: 0 auto;
-	padding: 3em 2em;
    
  }
  .menu {
@@ -174,4 +178,21 @@ a.before:hover:before,a.after:hover:after{
 }
 .square:hover a:before,.square:hover a:after{
   width:100%;
+}
+.site-footer
+{
+  line-height:24px;
+  position: relative;
+  color:#737373;
+}
+
+.site-footer a
+{
+  color:#737373;
+  font-size: 1em;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
 }
